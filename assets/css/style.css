@@ -10,7 +10,7 @@ body {
   position: relative;
 }
 
-#header1 {
+header {
   font-family: Georgia, Times, Times New Roman, serif;
   margin: auto;
   color: #4aaaa5;
@@ -58,20 +58,11 @@ body {
   border: 1px solid #777777;
   }
   
-.container2 {
-  margin: 20px auto;
-  width: 660px;
-  background: #ffffff;
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  padding: 0 20px 20px 20px;
-  color: #777777;
-  border: 1px solid #777777;
-  }
-
 h1 {
   font-family: Georgia, Times, Times New Roman, serif;
   color: #4aaaa5;
-  padding: 20px 20px 20px 0;
+  font-size: 34px;
+  padding: 0 20px 20px 0;
   border-bottom: solid;
   border-bottom-color: #777777;
   }
@@ -87,8 +78,9 @@ h1 {
   }
 
 .footer {
-  position: relative;
-  top: 580px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   height: 60px;
   width: 100%;
   margin: auto;
@@ -107,8 +99,7 @@ h1 {
   padding-right: 20px;
   }
 
-#Games {
+.Games {
   font-family: Georgia, Times, Times New Roman, serif;
-  padding: 20px;
   }
 
