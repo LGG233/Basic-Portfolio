@@ -49,6 +49,11 @@ currently, its size depends on the size of container1 */
   border: 1px solid #777777;
   }
 
+a {
+  color: #777777;
+  text-decoration: none; 
+}
+
 p {
   line-height: 1.6;
 }
@@ -110,4 +115,17 @@ h1 {
 #portpic {
   height: 150px;
   width: 225px;
+}
+
+#input {
+  width: 100%;
+  padding: 5px;
+  }
+
+.Contact {
+  font-size: 14px;
+}
+
+form {
+  line-height: 25px;
 }
