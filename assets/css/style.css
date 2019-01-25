@@ -10,7 +10,7 @@ body {
   position: relative;
 }
 
-header {
+#header1 {
   font-family: Georgia, Times, Times New Roman, serif;
   margin: auto;
   color: #4aaaa5;
@@ -18,7 +18,17 @@ header {
   border-color: #cccccc;
   width: 960px;
   }
+
+#header2 {
+  font-family: Georgia, Times, Times New Roman, serif;
+  margin: auto;
+  color: #4aaaa5;
+  background: #ffffff;
+  border-color: #cccccc;
+  width: 660px;
+  }
   
+
 #MyName {
   float: left;
   padding: 20px;
@@ -31,14 +41,14 @@ header {
   
 .Frame {
   float: left;
-  width: 98%;
+  width: 100%;
   height: 460px;
   background-image: url("../images/white-waves.png");
   background-repeat: repeat;
-  margin: 0 0 0 20px
-   }
+  margin: auto
+  }
   
-.container {
+.container1 {
   margin: 20px auto;
   width: 960px;
   background: #ffffff;
@@ -48,6 +58,16 @@ header {
   border: 1px solid #777777;
   }
   
+.container2 {
+  margin: 20px auto;
+  width: 660px;
+  background: #ffffff;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  padding: 0 20px 20px 20px;
+  color: #777777;
+  border: 1px solid #777777;
+  }
+
 h1 {
   font-family: Georgia, Times, Times New Roman, serif;
   color: #4aaaa5;
@@ -70,7 +90,7 @@ h1 {
   position: relative;
   top: 580px;
   height: 60px;
-  width: 960px;
+  width: 100%;
   margin: auto;
   display: block;
   text-align: center;
@@ -80,18 +100,15 @@ h1 {
   border-top-color: #4aaaa5;
   }
 
-  #bio-pic {
-    height: 15%;
-    width: 15%;
-    float: left;
-    padding-right: 20px;
+#bio-pic {
+  height: 15%;
+  width: 15%;
+  float: left;
+  padding-right: 20px;
   }
 
-  .Games {
-    font-family: Georgia, Times, Times New Roman, serif;
-    float: left;
-    padding: 20px;
-    color: white;
-    background: #4aaaa5;
-    text-align: center;
+#Games {
+  font-family: Georgia, Times, Times New Roman, serif;
+  padding: 20px;
   }
+
