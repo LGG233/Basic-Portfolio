@@ -41,7 +41,8 @@ header {
 }  
 
 /* I can't figure out how to make this wrapper extend to the bottom of the screen - 
-currently, its size depends on the size of container1 */  
+currently, its size depends on the size of container1. I tried putting it into 'body' 
+but then it appeared in the 'header'*/  
 .Frame {
   float: left;
   width: 100%;
@@ -53,6 +54,7 @@ currently, its size depends on the size of container1 */
 .container1 {
   margin: 20px auto;
   width: 960px;
+  height: 100%;
   background: #ffffff;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   padding: 0 20px 20px 20px;
@@ -160,5 +162,4 @@ form {
   font-size: 100%;
   border-width: 0;
   border-style: none;
-
 }
