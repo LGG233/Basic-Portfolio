@@ -27,8 +27,19 @@ header {
   font-size: 36px;
   background: #4aaaa5;
   text-align: center;
-  }
-  
+}
+
+#myLink {
+  float: right;
+  padding: 15px;
+  color: #777777;
+  font-size: 16px;
+  background: white;
+  text-align: center;
+  border-right: 10px;
+  border-right-color: #777777
+}  
+
 /* I can't figure out how to make this wrapper extend to the bottom of the screen - 
 currently, its size depends on the size of container1 */  
 .Frame {
@@ -47,6 +58,7 @@ currently, its size depends on the size of container1 */
   padding: 0 20px 20px 20px;
   color: #777777;
   border: 1px solid #777777;
+  overflow: auto;
   }
 
 a {
@@ -99,23 +111,33 @@ h1 {
   padding-right: 20px;
   }
 
-.Games {
-  font-family: Georgia, Times, Times New Roman, serif;
-    }
-
-#Pic {
-  padding: 20px;
-  font-size: 16px;
+#PicBox {
   float: left;
-  color: white;
-  background: #4aaaa5;
-  text-align: center;
+  height: 150px;
+  width: 225px;
+  position: relative;
 }
 
 #portpic {
   height: 150px;
   width: 225px;
+  position: relative;
+  padding: 0 20px 10px 0;
 }
+
+#PicName {
+  font-family: Georgia, Times, Times New Roman, serif;
+  padding: 20px;
+  font-size: 16px;
+  width: 205px;
+  float: left;
+  color: white;
+  background: #4aaaa5;
+  text-align: center;
+  position: absolute;
+  bottom: 17px;
+}
+
 
 #input {
   width: 100%;
