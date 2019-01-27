@@ -29,32 +29,28 @@ header {
   text-align: center;
 }
 
-#myLink {
+.myLink {
   float: right;
   padding: 15px;
-  color: #777777;
   font-size: 16px;
   background: white;
   text-align: center;
-  border-right: 10px;
-  border-right-color: #777777
 }  
 
 /* I can't figure out how to make this wrapper extend to the bottom of the screen - 
-currently, its size depends on the size of container1. I tried putting it into 'body' 
-but then it appeared in the 'header'*/  
+currently, its size depends on the size of container1. It matters because this wrapper holds
+the background image. I tried putting the image into 'body,' but then the image also appears in  
+the 'header.' */  
 .Frame {
   float: left;
   width: 100%;
-  height: 100%;
   background-image: url("../images/white-waves.png");
   background-repeat: repeat;
-  }
+}
   
 .container1 {
   margin: 20px auto;
   width: 960px;
-  height: 100%;
   background: #ffffff;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   padding: 0 20px 20px 20px;
@@ -66,6 +62,18 @@ but then it appeared in the 'header'*/
 a {
   color: #777777;
   text-decoration: none; 
+}
+
+a:hover {
+  color: #000;
+}
+
+a:active {
+  color: #666666;
+}
+
+a:visited {
+  color: #000;
 }
 
 p {
@@ -113,21 +121,21 @@ h1 {
   padding-right: 20px;
   }
 
-#PicBox {
+.PicBox {
   float: left;
   height: 150px;
   width: 225px;
   position: relative;
 }
 
-#portpic {
+.portpic {
   height: 150px;
   width: 225px;
   position: relative;
   padding: 0 20px 10px 0;
 }
 
-#PicName {
+.PicName {
   font-family: Georgia, Times, Times New Roman, serif;
   padding: 20px;
   font-size: 16px;
@@ -140,8 +148,7 @@ h1 {
   bottom: 17px;
 }
 
-
-#input {
+.input {
   width: 100%;
   padding: 5px;
   }
@@ -163,3 +170,4 @@ form {
   border-width: 0;
   border-style: none;
 }
+
