@@ -11,6 +11,11 @@ body {
   margin: 0;
 }
 
+p {
+  line-height: 1.6;
+}
+ 
+
 header {
   font-family: Georgia, Times, Times New Roman, serif;
   margin: auto;
@@ -31,21 +36,22 @@ header {
 
 .myLink {
   float: right;
-  padding: 15px;
+  padding: 15px 0 15px 30px;
   font-size: 16px;
-  background: white;
-  text-align: center;
 }  
 
 /* I can't figure out how to make this wrapper extend to the bottom of the screen - 
 currently, its size depends on the size of container1. It matters because this wrapper holds
 the background image. I tried putting the image into 'body,' but then the image also appears in  
-the 'header.' */  
+the 'header.' 
+UPDATE -- I cheated it using 'vh' - I made the frame 88vh units (100 vh added the amount of the header to the bottom of the viewport).
+It works, but it's not a very elegant solution...*/  
 .Frame {
   float: left;
   width: 100%;
   background-image: url("../images/white-waves.png");
   background-repeat: repeat;
+  height: 88vh;
 }
   
 .container1 {
@@ -63,23 +69,17 @@ a {
   color: #777777;
   text-decoration: none; 
 }
-
-a:hover {
-  color: #000;
-}
-
 a:active {
   color: #666666;
 }
-
 a:visited {
-  color: #000;
+  color: #4aaaa5;
+}
+a:hover {
+  background: #4aaaa5;
+  color: white;
 }
 
-p {
-  line-height: 1.6;
-}
-  
 h1 {
   font-family: Georgia, Times, Times New Roman, serif;
   color: #4aaaa5;
@@ -105,14 +105,15 @@ h1 {
   left: 0;
   height: 65px;
   width: 100%;
-  margin: auto;
+  margin: 0;
   display: block;
   text-align: center;
   background: #666666;
   border-top-style: solid;
   border-top-width: 8px;
   border-top-color: #4aaaa5;
-  }
+  padding-top: 15px;
+}
 
 #bio-pic {
   height: 15%;
