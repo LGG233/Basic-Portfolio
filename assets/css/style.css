@@ -40,18 +40,18 @@ header {
   font-size: 16px;
 }  
 
-/* I can't figure out how to make this wrapper extend to the bottom of the screen - 
+/* I can't figure out how to make the 'Frame' wrapper extend to the bottom of the screen - 
 currently, its size depends on the size of container1. It matters because this wrapper holds
-the background image. I tried putting the image into 'body,' but then the image also appears in  
-the 'header.' 
-UPDATE -- I cheated it using 'vh' - I made the frame 88vh units (100 vh added the amount of the header to the bottom of the viewport).
-It works, but it's not a very elegant solution...*/  
+the background image (I tried to get around it by putting the background image into 'body,' 
+but that overwrote the white header). 
+UPDATE -- I "cheated" it using 'vh' - I made the frame 85vh units (it would appear that the header is 
+about 15 vh). It works, but doesn't seem like a very elegant solution...*/  
 .Frame {
   float: left;
   width: 100%;
   background-image: url("../images/white-waves.png");
   background-repeat: repeat;
-  height: 88vh;
+  height: 85vh;
 }
   
 .container1 {
