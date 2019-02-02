@@ -1,5 +1,13 @@
 /* This is my homegrown CSS file */
 
+p {
+    padding: 0;
+}
+
+.white {
+    background-color: white;
+}
+
 #MyName {
     color: white;
     font-size: 36px;
@@ -8,7 +16,8 @@
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
   }
-  
+
+
 .background {
     background-image: url("../images/white-waves.png");
     background-repeat: repeat;
@@ -37,7 +46,6 @@ header {
 }
 
 .navbar {
-    background-color: red;
     padding: 0;
 }
 

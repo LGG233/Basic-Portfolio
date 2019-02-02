@@ -2,48 +2,60 @@
 <html lang="en-us">
 
 <!--This is the basic info about the page!-->
+
 <head>
     <meta charset="UTF-8">
     <title>Contact Me</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/stylebs.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
 </head>
 
 <body>
-<!--This is the header for all pages independent of the content-->
-    <header>
-        <div ID="MyName">
-            Lance G. Godard
-        </div>
-        <div id="nav">
-            <div class="myLink"><a href="contact.html">Contact</a></div>
-            <div class="myLink"><a href="portfolio.html">Portfolio</a></div>
-            <div class="myLink"><a href="index.html">About</a></div>
+    <!--This is the header for all pages independent of the content-->
+    <header class=" navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <div ID="MyName">Lance Godard</div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end">
+                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+                </ul>
+            </div>
         </div>
     </header>
 
-<!--This is the form for submitting comments-->
+
+    <!--This is the form for submitting comments-->
     <div class="Frame">
         <div class="container1">
             <h1>Contact</h1>
             <div class="Contact">
                 <form>
-                Name<br> 
-                <input class="input" type="text" name="Name" value="John Smith"><br>
-                Email<br>
-                <input class="input" type="email" name="Email" value="example@gmail.com"><br>
-                Message<br>
-                <textarea name="Message" id="MessageText" cols="125" rows="10"></textarea>
-                <br>
-                <input id=button type="submit">
+                    Name<br>
+                    <input class="input" type="text" name="Name" value="John Smith"><br>
+                    Email<br>
+                    <input class="input" type="email" name="Email" value="example@gmail.com"><br>
+                    Message<br>
+                    <textarea name="Message" id="MessageText" cols="125" rows="10"></textarea>
+                    <br>
+                    <input id=button type="submit">
                 </form>
             </div>
         </div>
     </div>
 
-<!--This is the footer, the same on all pages-->
+    <!--This is the footer, the same on all pages-->
     <div class="footer">
         <p>Copyright &copy;</p>
-    </div> 
-    
+    </div>
+
 </body>
+
 </html>

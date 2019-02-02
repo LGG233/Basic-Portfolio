@@ -2,60 +2,69 @@
 <html lang="en-us">
 
 <!--This is the basic info about the page!-->
+
 <head>
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/stylebs.css">
 
 <body>
-<!--This is the header for all pages independent of the content-->
-    <header>
-        <div ID="MyName">
-            Lance G. Godard
-        </div>
-        <div id="nav">
-            <div class="myLink"><a href="contact.html">Contact</a></div>
-            <div class="myLink"><a href="portfolio.html">Portfolio</a></div>
-            <div class="myLink"><a href="index.html">About</a></div>
+    <!--This is the header for all pages independent of the content-->
+
+    <header class=" navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <div ID="MyName">Lance Godard</div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end">
+                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+                </ul>
+            </div>
         </div>
     </header>
 
-<!--These are the games I've 'worked' on-->
+    <!--These are the games I've 'worked' on-->
 
-<!--It's not clear to me how to make the PicBoxes appear two by two - when I narrow the width of container1 to, say, 660px, the 
+    <!--It's not clear to me how to make the PicBoxes appear two by two - when I narrow the width of container1 to, say, 660px, the 
     page looks like the one shown in the instructions. But the instructions were pretty clear that the content width on the site was 960px. Further, 
     if I change the width of the container, I'd have to change the width of the header so that it lines up. That would give me separate dimensions 
     for each page; which would leave me with a one-size-fits-one solution rather than a one-size-fits-all solution. Is there something that I am 
     missing?-->
     <div class="Frame">
         <div class="container1">
-                <h1>Portfolio</h1>
-                <div class="PicBox">
-                    <img class="portpic" src="assets/images/Hangman1.jpg" alt="Hangman">
-                    <div class="PicName">Hangman</div>
-                </div>
-                <div class="PicBox">
-                    <img class="portpic" src="assets/images/RPG1.jpg" alt="RPG Game">
-                    <div class="PicName">RPG Game</div>
-                </div>
-                <div class="PicBox">
-                    <img class="portpic" src="assets/images/Trivia1.jpg" alt="Trivia Game">
-                    <div class="PicName">Trivia Game</div>
-                </div>
-                <div class="PicBox">
-                    <img class="portpic" src="assets/images/Info_Widget1.jpg" alt="Rutgers Info Widget">
-                    <div class="PicName">Rutgers Info Widget</div>
-                </div>
-                <div class="PicBox">
-                    <img class="portpic" src="assets/images/Rock_Paper_Scissors1.jpg" alt="Rock Paper Scissors Game">
-                    <div class="PicName">Rock Paper Scissors</div>
-                </div>
+            <h1>Portfolio</h1>
+            <div class="PicBox">
+                <img class="portpic" src="assets/images/Hangman1.jpg" alt="Hangman">
+                <div class="PicName">Hangman</div>
+            </div>
+            <div class="PicBox">
+                <img class="portpic" src="assets/images/RPG1.jpg" alt="RPG Game">
+                <div class="PicName">RPG Game</div>
+            </div>
+            <div class="PicBox">
+                <img class="portpic" src="assets/images/Trivia1.jpg" alt="Trivia Game">
+                <div class="PicName">Trivia Game</div>
+            </div>
+            <div class="PicBox">
+                <img class="portpic" src="assets/images/Info_Widget1.jpg" alt="Rutgers Info Widget">
+                <div class="PicName">Rutgers Info Widget</div>
+            </div>
+            <div class="PicBox">
+                <img class="portpic" src="assets/images/Rock_Paper_Scissors1.jpg" alt="Rock Paper Scissors Game">
+                <div class="PicName">Rock Paper Scissors</div>
+            </div>
         </div>
     </div>
 
-<!--This is the footer that appears on all pages-->
+    <!--This is the footer that appears on all pages-->
     <div class="footer">
         <p>Copyright &copy;</p>
-    </div> 
+    </div>
 </body>
