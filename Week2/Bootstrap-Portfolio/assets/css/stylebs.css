@@ -1,0 +1,67 @@
+/* This is my homegrown CSS file */
+
+#MyName {
+    color: white;
+    font-size: 36px;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+.background {
+    background-image: url("../images/white-waves.png");
+    background-repeat: repeat;
+    height: 85vh;
+    padding: 20px;
+}
+
+.title {
+    border-bottom: solid 2px #777777;
+    color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font: bold;
+}
+
+.innerbody {
+    background: white;
+    /* padding: 20px;  */
+    border: solid 1px #777777;
+    max-width: 960px;
+}
+  
+header {
+    padding: 0;
+}
+
+.navbar {
+    background-color: red;
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.nav-link {
+    color: #4aaaa5;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 65px;
+    width: 100%;
+    margin: 0;
+    display: block;
+    text-align: center;
+    background: #666666;
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-top-color: #4aaaa5;
+    padding-top: 15px;
+  }
+  

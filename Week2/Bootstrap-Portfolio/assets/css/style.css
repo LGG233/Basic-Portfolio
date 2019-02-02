@@ -27,6 +27,10 @@ p {
 .col-sm-12 {
 }
 
+.img-fluid {
+  max-width: 200px;
+  max-height: 200px;
+}
 .navbar.navbar-expand-md.navbar-light.bg-light {
   padding: 0;
 }
@@ -42,9 +46,10 @@ p {
 }
 
 .container-fluid {
+  padding: 20px;
+  height: 85vh;
   background-image: url("../images/white-waves.png");
   background-repeat: repeat;
-  padding: 20px;
 }
 
 .container {
@@ -114,13 +119,6 @@ h1 {
   border-top-color: #4aaaa5;
   padding-top: 15px;
 }
-
-#bio-pic {
-  max-height: 200px;
-  max-width: 200px;
-  float: left;
-  padding-right: 20px;
-  }
 
 .PicBox {
   float: left;
@@ -212,3 +210,9 @@ about 15 vh). It works, but doesn't seem like a very elegant solution...*/
   border: 1px solid #d4d4d4;
   overflow: auto;
   } */
+
+/* #bio-pic {
+  float: left;
+  padding-right: 20px;
+  } */
+
