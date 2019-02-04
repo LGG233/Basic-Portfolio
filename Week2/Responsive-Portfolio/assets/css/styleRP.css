@@ -252,4 +252,15 @@ header {
     margin: 0 20px;
     color: #777777;
   }
-   
+
+  @media (min-width: 640px) {
+
+  }
+
+  @media (min-width: 780px) {
+
+  }
+
+  @media (min-width: 980px) {
+
+  }

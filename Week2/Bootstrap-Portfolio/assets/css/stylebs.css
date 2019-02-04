@@ -70,7 +70,7 @@ header {
 /* Content elements */
 .innerbody {
     background: white;
-    padding: 0 50px 0 50px; 
+    padding: 0 25px 0 25px; 
     border: solid 1px #777777;
 }
 
@@ -85,26 +85,23 @@ header {
 }
   
 /* About Me page */
-.my-mug {
-    padding: 0 20px 0 0;
-  }
 
 /* Portfolio Page */
-  .PicBox {
+  .pic-box {
     float: left;
     height: 150px;
     width: 225px;
     position: relative;
   }
   
-  .portpic {
+  .port-pic {
     height: 150px;
     width: 225px;
     position: relative;
     padding: 0 20px 10px 0;
   }
   
-  .PicName {
+  .pic-name {
     font-family: Georgia, Times, Times New Roman, serif;
     padding: 10px;
     font-size: 16px;
