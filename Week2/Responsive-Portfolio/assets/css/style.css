@@ -1,0 +1,174 @@
+/**
+ * Styles for website project
+ **/
+
+* {
+  box-sizing: border-box;
+} 
+
+body {
+  position: relative;
+  margin: 0;
+}
+
+p {
+  line-height: 1.6;
+}
+ 
+
+header {
+  font-family: Georgia, Times, Times New Roman, serif;
+  margin: auto;
+  color: #4aaaa5;
+  background: #ffffff;
+  width: 960px;
+  }
+
+#MyName {
+  float: left;
+  padding: 20px;
+  color: white;
+  font-size: 36px;
+  background: #4aaaa5;
+  text-align: center;
+}
+
+.myLink {
+  float: right;
+  padding: 15px 0 15px 30px;
+  font-size: 16px;
+}  
+
+/* I can't figure out how to make the 'Frame' wrapper extend to the bottom of the screen - 
+currently, its size depends on the size of container1. It matters because this wrapper holds
+the background image (I tried to get around it by putting the background image into 'body,' 
+but that overwrote the white header). 
+UPDATE -- I "cheated" it using 'vh' - I made the frame 85vh units (it would appear that the header is 
+about 15 vh). It works, but doesn't seem like a very elegant solution...*/  
+.Frame {
+  float: left;
+  width: 100%;
+  background-image: url("../images/white-waves.png");
+  background-repeat: repeat;
+  border-top: 2px solid #d4d4d4;
+  height: 85vh;
+}
+  
+.container1 {
+  margin: 20px auto;
+  width: 960px;
+  background: #ffffff;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  padding: 0 20px 20px 20px;
+  color: #777777;
+  border: 1px solid #d4d4d4;
+  overflow: auto;
+  }
+
+a {
+  color: #777777;
+  text-decoration: none; 
+}
+a:active {
+  color: #666666;
+}
+a:visited {
+  color: #4aaaa5;
+}
+a:hover {
+  background: #4aaaa5;
+  color: white;
+}
+
+h1 {
+  font-family: Georgia, Times, Times New Roman, serif;
+  color: #4aaaa5;
+  font-size: 34px;
+  padding: 0 20px 20px 0;
+  border-bottom: solid;
+  border-bottom-color: #777777;
+  }
+  
+#nav {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  float: right;
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #777777;
+  }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 65px;
+  width: 100%;
+  margin: 0;
+  display: block;
+  text-align: center;
+  background: #666666;
+  border-top-style: solid;
+  border-top-width: 8px;
+  border-top-color: #4aaaa5;
+  padding-top: 15px;
+}
+
+#bio-pic {
+  height: 15%;
+  width: 15%;
+  float: left;
+  padding-right: 20px;
+  }
+
+.PicBox {
+  float: left;
+  height: 150px;
+  width: 225px;
+  position: relative;
+}
+
+.portpic {
+  height: 150px;
+  width: 225px;
+  position: relative;
+  padding: 0 20px 10px 0;
+}
+
+.PicName {
+  font-family: Georgia, Times, Times New Roman, serif;
+  padding: 20px;
+  font-size: 16px;
+  width: 205px;
+  float: left;
+  color: white;
+  background: #4aaaa5;
+  text-align: center;
+  position: absolute;
+  bottom: 17px;
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+  }
+
+.Contact {
+  font-size: 14px;
+}
+
+form {
+  line-height: 25px;
+}
+
+#button {
+  background: #4aaaa5;
+  color: white;
+  height: 25px;
+  width: 80px;
+  font-size: 100%;
+  border-width: 0;
+  border-style: none;
+}
+

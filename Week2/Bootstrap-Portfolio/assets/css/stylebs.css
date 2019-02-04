@@ -1,14 +1,50 @@
-/* This is my homegrown CSS file */
+/* This is my CSS file for the Bootstrap Portfolio */
 
-/* p {
-    padding: 0;
-} */
+/* All Pages */
+body {
+    background-image: url("../images/white-waves.png");
+    background-repeat: repeat;
+}
 
+a {
+    color: #4aaaa5;
+    text-decoration: none; 
+  }
+  a:active {
+    color: white;
+  }
+  a:visited {
+    color: #4aaaa5;
+  }
+  a:hover {
+    background: #4aaaa5;
+    color: white;
+  }
+
+  .my-footer {
+    height: 65px;
+    margin: 20px 0 0 0;
+    background: #666666;
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-top-color: #4aaaa5;
+    padding-top: 15px;
+  }
+
+/* Navbar elements */
+.nav-link {  
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #4aaaa5
+    text-align: center;
+    margin: 0 20px;
+    color: #777777;
+  }
+   
 .white {
     background-color: white;
 }
 
-#MyName {
+.my-name {
     color: white;
     font-size: 36px;
     background: #4aaaa5;
@@ -17,43 +53,13 @@
     font-family: 'Times New Roman', Times, serif;
   }
 
-.form-group {
-    padding: 0 0 0 20px;
-    margin: 0 0 20px 20px;
-}
-
-.background {
-    background-image: url("../images/white-waves.png");
-    background-repeat: repeat;
-    height: 85vh;
-    padding: 20px;
-}
-
-.title {
-    border-bottom: solid 2px #777777;
-    color: #4aaaa5;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    font: bold;
-}
-
-.innerbody {
-    background: white;
-    /* padding: 20px;  */
-    border: solid 1px #777777;
-    max-width: 960px;
-}
-  
 header {
+    background-color: white;
+    margin-bottom: 20px;
     padding: 0;
 }
 
-.navbar {
-    padding: 0;
-}
-
-.navbar-brand {
+.my-padding {
     padding: 0;
 }
 
@@ -61,21 +67,29 @@ header {
     color: #4aaaa5;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    height: 65px;
-    width: 100%;
-    margin: 0;
-    display: block;
-    text-align: center;
-    background: #666666;
-    border-top-style: solid;
-    border-top-width: 8px;
-    border-top-color: #4aaaa5;
-    padding-top: 15px;
+/* Content elements */
+.innerbody {
+    background: white;
+    padding: 0 50px 0 50px; 
+    border: solid 1px #777777;
+}
+
+.title {
+    border-bottom: solid 2px #777777;
+    padding: 10px 0 0 0;
+    color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-top: 10px; */
+    margin-bottom: 25px;
+    font: bold;
+}
+  
+/* About Me page */
+.my-mug {
+    padding: 0 20px 0 0;
   }
+
+/* Portfolio Page */
   .PicBox {
     float: left;
     height: 150px;
@@ -92,7 +106,7 @@ header {
   
   .PicName {
     font-family: Georgia, Times, Times New Roman, serif;
-    padding: 20px;
+    padding: 10px;
     font-size: 16px;
     width: 205px;
     float: left;
@@ -103,4 +117,13 @@ header {
     bottom: 17px;
   }
   
-  
+/* Contact Page */
+.my-form {
+    padding: 0 0 0 -150px;
+    margin: 0 0 20px 20px;
+}
+
+.my-button {
+    margin: 0 0 40px 40px;
+  }
+
