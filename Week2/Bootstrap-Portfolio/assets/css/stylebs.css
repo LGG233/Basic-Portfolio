@@ -21,14 +21,15 @@ a {
     color: white;
   }
 
-  .my-footer {
-    height: 65px;
-    margin: 20px 0 0 0;
-    background: #666666;
-    border-top-style: solid;
-    border-top-width: 8px;
-    border-top-color: #4aaaa5;
-    padding-top: 15px;
+.my-footer {
+  height: 65px;
+  margin: 20px 0 0 0;
+  background: #666666;
+  border-top-style: solid;
+  border-top-width: 8px;
+  border-top-color: #4aaaa5;
+  padding-top: 15px;
+  text-align: center;
   }
 
 /* Navbar elements */
@@ -70,7 +71,7 @@ header {
 /* Content elements */
 .innerbody {
     background: white;
-    padding: 0 25px 0 25px; 
+    padding: 0 40px 0 40px; 
     border: solid 1px #777777;
 }
 
@@ -85,6 +86,10 @@ header {
 }
   
 /* About Me page */
+
+.my-mug {
+  margin: 0 0 0 -17px;
+}
 
 /* Portfolio Page */
   .pic-box {
