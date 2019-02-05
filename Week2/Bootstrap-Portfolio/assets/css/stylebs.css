@@ -22,15 +22,25 @@ a {
   }
 
 .my-footer {
-  height: 65px;
+  position: fixed;
+  bottom: 0;
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  color: #cccccc;
+  text-align: center;
+  background: #666666;
+  border-top: 8px solid #4aaaa5;
+  height: 50px;
+}
+  /* height: 65px;
   margin: 20px 0 0 0;
   background: #666666;
-  border-top-style: solid;
-  border-top-width: 8px;
-  border-top-color: #4aaaa5;
+  border-top-style: 8px solid #4aaaa5;
   padding-top: 15px;
   text-align: center;
-  }
+  } */
 
 /* Navbar elements */
 .nav-link {  
@@ -73,6 +83,7 @@ header {
     background: white;
     padding: 0 40px 0 40px; 
     border: solid 1px #777777;
+    margin: auto;
 }
 
 .title {
@@ -80,16 +91,12 @@ header {
     padding: 10px 0 0 0;
     color: #4aaaa5;
     font-family: 'Times New Roman', Times, serif;
-    /* margin-top: 10px; */
     margin-bottom: 25px;
     font: bold;
 }
   
 /* About Me page */
 
-.my-mug {
-  margin: 0 0 0 -17px;
-}
 
 /* Portfolio Page */
   .pic-box {
@@ -97,6 +104,7 @@ header {
     height: 150px;
     width: 225px;
     position: relative;
+    padding: 0 20px 0 20px;
   }
   
   .port-pic {
@@ -109,7 +117,7 @@ header {
   .pic-name {
     font-family: Georgia, Times, Times New Roman, serif;
     padding: 10px;
-    font-size: 16px;
+    font-size:  px;
     width: 205px;
     float: left;
     color: white;
@@ -122,10 +130,14 @@ header {
 /* Contact Page */
 .my-form {
     padding: 0 0 0 -150px;
-    margin: 0 0 20px 20px;
+    margin: 0 0 20px -15px;
+    text-indent: 1px;
 }
 
 .my-button {
-    margin: 0 0 40px 40px;
+    margin: 0 0 40px 0;
+    background: #4aaaa5;
+    padding: 10px;
+    margin-left: -15px;
   }
 

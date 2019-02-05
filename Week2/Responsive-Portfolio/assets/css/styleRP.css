@@ -11,19 +11,13 @@
   body {
     position: relative;
     margin: 0;
+    background-image: url("../images/white-waves.png");
+    background-repeat: repeat;
   }
   
   p {
     line-height: 1.6;
   }
-  
-header {
-    font-family: Georgia, Times, Times New Roman, serif;
-    margin: auto;
-    color: #4aaaa5;
-    background: #ffffff;
-    width: 960px;
-    }
   
 .my-name {
     float: left;
@@ -51,26 +45,15 @@ header {
     }
   
 
-  .main-frame {
+  /* .main-frame {
     float: left;
     width: 100%;
     background-image: url("../images/white-waves.png");
     background-repeat: repeat;
     border-top: 2px solid #d4d4d4;
     height: 85vh;
-  }
+  } */
     
-.container1 {
-    margin: 20px auto;
-    width: 960px;
-    background: #ffffff;
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    padding: 0 20px 20px 20px;
-    color: #777777;
-    border: 1px solid #d4d4d4;
-    overflow: auto;
-    }
-  
   a {
     color: #777777;
     text-decoration: none; 
@@ -167,7 +150,6 @@ header {
 
 .innerbody {
     background: white;
-    /* padding: 20px;  */
     border: solid 1px #777777;
     max-width: 960px;
 }
@@ -253,14 +235,76 @@ header {
     color: #777777;
   }
 
-  @media (min-width: 640px) {
+  @media (max-width: 640px) {
+    .container1 {
+      margin: 20px auto;
+      width: 640px;
+      background: #ffffff;
+      font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+      padding: 0 20px 20px 20px;
+      color: #777777;
+      border: 1px solid #d4d4d4;
+      overflow: auto;
+      }
+    
+    header {
+      font-family: Georgia, Times, Times New Roman, serif;
+      margin: auto;
+      color: #4aaaa5;
+      background: #ffffff;
+      width: 640px;
+      margin: 20px;
+      }
+      
 
+      
   }
 
-  @media (min-width: 780px) {
-
+  @media (max-width: 780px) {
+    .container1 {
+      margin: 20px auto;
+      width: 780x;
+      background: #ffffff;
+      font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+      padding: 0 20px 20px 20px;
+      color: #777777;
+      border: 1px solid #d4d4d4;
+      overflow: auto;
+      }
+      header {
+        font-family: Georgia, Times, Times New Roman, serif;
+        margin: auto;
+        color: #4aaaa5;
+        background: #ffffff;
+        width: 780px;
+        margin: 20px;
+      }
+      
+        
+  
   }
 
-  @media (min-width: 980px) {
+  @media (max-width: 980px) {
+    .container1 {
+      margin: 20px auto;
+      width: 960px;
+      background: #ffffff;
+      font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+      padding: 0 20px 20px 20px;
+      color: #777777;
+      border: 1px solid #d4d4d4;
+      overflow: auto;
+      }
 
+      header {
+        font-family: Georgia, Times, Times New Roman, serif;
+        margin: auto;
+        color: #4aaaa5;
+        background: #ffffff;
+        width: 960px;
+        margin: 20px;
+      }
+      
+    
+  
   }
